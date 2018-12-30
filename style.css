@@ -1,0 +1,29 @@
+html, body {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+  }
+  
+  .wrapper {}
+  
+  .left, .right {} ;
+    
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left {
+    max-width: 5%;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+  }
